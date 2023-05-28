@@ -5,6 +5,6 @@ export class AccountController {
 
     @Get()
     getInfo(@HostParam("account") account:string){
-        return account
+        return account;
     }
 }
